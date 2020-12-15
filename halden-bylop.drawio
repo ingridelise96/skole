@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T18:30:21.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-SNyMMNFAuaRP9XSAs6N" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T14:12:09.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Bau7ulCuXPBAVZPqzqPj" version="14.0.1" type="github">
   <diagram id="HB0zmDzn8PzN4YRfiY-I" name="Page-1">
-    <mxGraphModel dx="2310" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,10 +59,13 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fa52Ynr5WljQ3uTiB2kK-20" value="Nyheter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="600" width="160" height="52" as="geometry" />
+          <mxGeometry x="-80" y="600" width="160" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Fa52Ynr5WljQ3uTiB2kK-21" value="Bildegalleri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fa52Ynr5WljQ3uTiB2kK-20">
+        <mxCell id="Fa52Ynr5WljQ3uTiB2kK-72" value="Bildegalleri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fa52Ynr5WljQ3uTiB2kK-20">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fa52Ynr5WljQ3uTiB2kK-21" value="Listevisning alle nyheter" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="Fa52Ynr5WljQ3uTiB2kK-20">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fa52Ynr5WljQ3uTiB2kK-36" value="Kontakt oss" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="950" y="600" width="160" height="34" as="geometry" />
@@ -127,6 +130,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fa52Ynr5WljQ3uTiB2kK-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fa52Ynr5WljQ3uTiB2kK-3" target="Fa52Ynr5WljQ3uTiB2kK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fa52Ynr5WljQ3uTiB2kK-70" value="Nyhetsartikkel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="830" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Fa52Ynr5WljQ3uTiB2kK-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.502;exitY=0.971;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Fa52Ynr5WljQ3uTiB2kK-21" target="Fa52Ynr5WljQ3uTiB2kK-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
